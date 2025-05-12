@@ -1,10 +1,14 @@
 {
   "name": "react-slug-editor",
   "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
-    "client": "npm start --prefix client",
-    "server": "npm start --prefix server",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start:client": "npm start --prefix client",
+    "start:server": "npm start --prefix server",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\""
   },
   "author": "",
   "license": "ISC",
