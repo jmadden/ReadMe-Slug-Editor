@@ -79,24 +79,26 @@ All scripts assume you’re in the root folder.
 
 ## Project Structure
 
+```
 ReadMe-Slug-Editor/
-├── client/ # React front-end
-│ ├── public/
-│ ├── src/
-│ └── package.json # "start": "react-scripts start", etc.
-├── server/ # Node.js back-end
-│ ├── server.js # Express routes for ReadMe API proxy
-│ └── package.json # "start": "node server.js", etc.
-├── package.json # root: defines workspaces & orchestrates scripts
+├── client/              # React front-end
+│   ├── public/
+│   ├── src/
+│   └── package.json     # "start": "react-scripts start", etc.
+├── server/              # Node.js back-end
+│   ├── server.js        # Express routes for ReadMe API proxy
+│   └── package.json     # "start": "node server.js", etc.
+├── package.json         # root: defines workspaces & orchestrates scripts
 ├── package-lock.json
 └── .gitignore
+```
 
 ## Contributing
 
-    1.	Fork the repo
-    2.	Create a feature branch (git checkout -b feat/whatever)
-    3.	Install & run (npm install && npm start)
-    4.	Make your changes & test
-    5.	Submit a PR against main
+1. Fork the repo
+2. Create a feature branch (git checkout -b feat/whatever)
+3. Install & run (npm install && npm start)
+4. Make your changes & test
+5. Submit a PR against main
 
 Please follow the existing coding style and add tests where appropriate.
