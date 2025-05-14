@@ -1,6 +1,7 @@
 # ReadMe Slug Editor
 
-A monorepo with a React client and Node.js server for browsing and editing ReadMe.io document slugs via the ReadMe Dashboard API.
+A monorepo with a React client and Node.js server for browsing and editing ReadMe.io document slugs via the ReadMe API.
+This is a no frills app, so styling is very limited.
 
 ---
 
