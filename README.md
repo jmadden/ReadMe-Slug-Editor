@@ -22,6 +22,7 @@ A monorepo with a React client and Node.js server for browsing and editing ReadM
 - **npm** v7 or higher (bundled with Node.js v22)
 - **Git** (to clone the repo)
 - A ReadMe.io account and **Dashboard API Key**
+- V1 of the ReadMe API - https://docs.readme.com/main/reference/intro-to-the-readme-api#/
 
 ---
 
